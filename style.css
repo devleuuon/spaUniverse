@@ -7,7 +7,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-image: url(../assets/mountains-universe-1.png);
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -36,15 +36,14 @@ nav {
     display: flex;
     gap: 1.5rem;
     margin: 2.0rem 1.7rem 0;
+    font-size: 1.2rem;
+    font-weight: 400;
 }
 
 nav a {
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-weight: 400;
-    opacity: 0.5;
-    font-weight: 400;
     color: white;
+    text-decoration: none;
+    opacity: 0.5;
     line-height: 2.17rem;
 }
 
@@ -83,8 +82,25 @@ button a {
     color: white;
 }
 
+.active {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #ffffff;
+    opacity: 1;
+}
+
+.bgHome {
+    background-image: url(./assets/mountains-universe-1.png);
+    background-size: cover;
+}
+
 
     /*PAGE TWO*/
+
+    .bgHome {
+        background-image: url(./assets/mountains-universe02.png);
+        background-size: cover;
+    }
 
     .pageTwo {
         display: flex;
@@ -108,6 +124,11 @@ button a {
     }
 
     /* PAGE THREE*/
+
+    .bgUniverse {
+        background-image: url(./assets/mountains-universe-3.png);
+        background-size: cover;
+    }
 
     
 .pageThree {
@@ -141,14 +162,11 @@ button a {
     nav {
         margin: 5.0rem 8.6rem 0;
         gap: 5.5rem;
+        font-size: 2.0rem;
     }
 
-    nav a {
-        font-size: 2.1rem;
-    }
-
-    nav a:nth-child(2) {
-        font-size: 2.4rem;
+    .active {
+        font-size: 2.0rem;
     }
 
     h1 {

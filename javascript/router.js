@@ -1,3 +1,4 @@
+
 export class Router {
     routes = {} //objeto vazio
 

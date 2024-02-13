@@ -8,6 +8,7 @@
 // criar função do disparo no click.
 // criar função handle() e passar para main.js e colocar na função route()
 
+import * as events from './events.js'
 import { Router } from "./router.js";
 
 const router = new Router()
