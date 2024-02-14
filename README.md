@@ -27,7 +27,7 @@ Projeto promovido pela rocketseat para ensino de tecnologias WEB.
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML, CSS e Javascript e node.js
+- HTML, CSS, Javascript e node.js
 - Git e Github
 - Figma
 
